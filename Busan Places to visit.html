@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+        <title>Visit Busan</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header" id = "header">
+            <nav class = "nav container">
+                <a href = "#" class="nav_logo">Busan</a>
+                <div class = "nav_menu" id = "nav-menu">
+                    <ul class = "nav_list">
+                        <li class = "nav_item">
+                            <a href = "#home" class = "nav_link active-link">Home</a>
+                        </li>
+                        <li class = "nav_item">
+                            <a href = "#about" class = "nav_link ">About</a>
+                        </li>
+                        <li class = "nav_item">
+                            <a href = "#popular" class = "nav_link">Popular</a>
+                        </li>
+                        <li class = "nav_item">
+                            <a href = "#explore" class = "nav_link">Explore</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav_close" id="nav-close">
+                        <i class = "ri-close-line"></i> 
+                    </div>
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class = "ri-menu-fill"></i> 
+
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class = "home section" id = "home">
+                <img src="photos/main_bg.jpg" alt="main_bg" class="home_bg">
+                <div class = "home_shadow"></div>
+                <div class = "home_container container grid">
+                    <div class = "home_data">
+                        <h3 class="home_subtitle">
+                            Best places in Busan
+                        </h3>
+                        <h1 class="home_title">
+                            Explore <br>
+                            Busan
+                        </h1>
+                        <p class = "home_description">
+                            Explore the beauties of Busan
+                        </p>
+
+                        <a href="#" class="button">
+                            Start your Journey <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="home_cards grid">
+                        <article class="home_card">
+                            <img src="photos/photo_1.jpg" alt="home image" class="home_card-img">
+                            <h3 class="home_card-title">Haeundae Beach Train</h3>
+                            <div class="home_card-shadow"></div>
+                        </article>
+
+                        <article class="home_card">
+                            <img src="photos/photo_2.jpg" alt="home image" class="home_card-img">
+                            <h3 class="home_card-title">Gamcheon Culture Village</h3>
+                            <div class="home_card-shadow"></div>
+                        </article>
+
+                        <article class="home_card">
+                            <img src="photos/photo_3.jpg" alt="home image" class="home_card-img">
+                            <h3 class="home_card-title">Gwanganli Beach</h3>
+                            <div class="home_card-shadow"></div>
+                        </article>
+
+                        <article class="home_card">
+                            <img src="photos/photo_4.jpg" alt="home image" class="home_card-img">
+                            <h3 class="home_card-title">Hwangnyeongsan Mountain Observatory</h3>
+                            <div class="home_card-shadow"></div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="about_container container grid">
+                    <div class="about_data">
+                        <h2 class="section__title">
+                            Learn More <br>
+                            About Busan
+                        </h2>
+                        <p class="about_description">
+                            Busan is South Korea’s coastal gem, known for its beautiful beaches, 
+                            fresh seafood, and vibrant culture. From seaside views to colorful streets, 
+                            it’s a city full of energy and charm.
+
+                        </p>
+                        <a href = "#" class="button">
+                            Explore Busan <i class = "ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="about_image">
+                        <img src="photos/about_beach.jpg" alt = "about image" class = "about_img">
+                        <div class="about_shadow"></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="popular section" id="popular">
+                <h2 class="section__title">
+                    Enjoy The Beauty <br>
+                    of Busan
+                </h2>
+
+                <div class="popular_container container grid">
+                    <article class="popular_card">
+                        <div class="popular_image">
+                            <img src="photos/popular_1.jpg" alt="popular image" class="popular_img">
+                            <div class="popular_shadow"></div>
+                        </div>
+
+                        <h2 class="popular_title">
+                            Haeundae Beach Train
+                        </h2>
+                        <div class="popular_text">
+                            <span>Category: Beach</span>
+                            <p>&#9432; Enjoy a coastal train ride with panoramic views of Haeundae’s shoreline and blue sea.</p>
+                        </div>
+                        <div class="popular_location">
+                            <i class="ri-map-pin-line"></i>
+                            <a href ="https://naver.me/FnVcg5fh" target="_blank"><span style="color: white;">Location</span></a>
+                        </div>
+                    </article>
+
+                    <article class="popular_card">
+                        <div class="popular_image">
+                            <img src="photos/popular_2.jpg" alt="popular image" class="popular_img">
+                            <div class="popular_shadow"></div>
+                        </div>
+
+                        <h2 class="popular_title">
+                            Gamcheon Culture Village
+                        </h2>
+                        <div class="popular_text">
+                            <span>Category: Cultural Spot</span>
+                            <p>&#9432; Wander through colorful hillside houses, murals, and art installations in this vibrant village.</p>
+                        </div>
+                        <div class="popular_location">
+                            <i class="ri-map-pin-line"></i>
+                            <a href ="https://naver.me/5sGAJp6j" target="_blank"><span style="color: white;">Location</span></a>
+                        </div>
+                    </article>
+
+                    <article class="popular_card">
+                        <div class="popular_image">
+                            <img src="photos/popular_3.jpg" alt="popular image" class="popular_img">
+                            <div class="popular_shadow"></div>
+                        </div>
+
+                        <h2 class="popular_title">
+                            Gwanganli Beach
+                        </h2>
+                        <div class="popular_text">
+                            <span>Category: Beach</span>
+                            <p>&#9432; Relax on a lively beach with views of the iconic Gwangandaegyo Bridge, especially stunning at night.</p>
+                        </div>
+                        <div class="popular_location">
+                            <i class="ri-map-pin-line"></i>
+                            <a href ="https://naver.me/5KqDoW2L" target="_blank"><span style="color: white;">Location</span></a>
+                        </div>
+                    </article>
+
+                    <article class="popular_card">
+                        <div class="popular_image">
+                            <img src="photos/popular_4.jpg" alt="popular image" class="popular_img">
+                            <div class="popular_shadow"></div>
+                        </div>
+
+                        <h2 class="popular_title">
+                            Hwangnyeongsan Mountain Observatory
+                        </h2>
+                        <div class="popular_text">
+                            <span>Category: Landmark</span>
+                            <p>&#9432; Get breathtaking panoramic views of Busan from this mountaintop observatory, day or night.</p>
+                        </div>
+                        <div class="popular_location">
+                            <i class="ri-map-pin-line"></i>
+                            <a href ="https://naver.me/G282ckNu" target="_blank"><span style="color: white;">Location</span></a>
+                        </div>
+                    </article>
+
+                    
+                </div>
+            </section>
+
+            <section class="explore section" id="explore">
+                <div class="explore_container">
+                    <div class="explore_image">
+                        <img src="photos/explore_photo.jpg" alt="explore_photo" class="explore_img">
+                        <div class="explore_shadow"></div>
+                    </div>
+                    
+                    <div class="explore_content container grid">
+                        <div class="explore_data">
+                            <h2 class="section__title">
+                                Explore The <br>
+                                Beatiful City Busan
+                            </h2>
+
+                            <p class="explore_discription">
+                                Experience Busan’s stunning beaches, rich culture, 
+                                and lively atmosphere - all in one unforgettable destination.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer_container container grid">
+                <div class="footer_content grid">
+                    <div>
+                        <a href="#" class="footer_logo">Busan</a>
+                    
+                        <p class="footer_description">
+                            Travel in Busan with us <br>
+                            and explore its beauties.
+                        </p>
+                    </div>
+
+                    <div class="footer_data grid"> 
+                        <div>
+                            <h3 class="footer_title">About</h3>
+                            <ul class="footer_links">
+                                <li>
+                                    <a href="#" class="footer_link">About us</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer_link">Features</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer_link">News & Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="footer_title">Company</h3>
+                            <ul class="footer_links">
+                                <li>
+                                    <a href="#" class="footer_link">FAQs</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer_link">History</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer_link">Reviews</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div> 
+                            <h3 class="footer_title">Contact</h3>
+                            <ul class="footer_links">
+                                <li>
+                                    <a href="#" class="footer_link">Phone Number</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer_link">Support Center</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer_link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div> 
+                            <h3 class="footer_title">Support</h3>
+                            <ul class="footer_links">
+                                <li>
+                                    <a href="#" class="footer_link">Privacy Policy</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer_link">Terms & Conditions</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer_link">Payments</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="footer_group">
+                    <div class="footer_social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer_social-link">
+                            <i class="ri-facebook-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/zhonseey?igsh=MWp6bzN3OWxpZTRhMg%3D%3D&utm_source=qr" target="_blank" class="footer_social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="https://www.tiktok.com/@zhannsssss?_t=ZM-8wu8nA59O6g&_r=1" target="_blank" class="footer_social-link">
+                            <i class="ri-tiktok-line"></i>
+                        </a>
+                    </div>
+
+                    <span class="footer_copy">&#169; Copyright Busan. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
